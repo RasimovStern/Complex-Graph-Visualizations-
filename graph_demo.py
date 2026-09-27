@@ -52,6 +52,5 @@ class GraphDemo(Scene):
         self.play(FadeOut(cos_graph), FadeOut(cos_label))
         self.wait(0.3)
 
-   
         # Wrap up
-        self.play(*map(FadeOut, [bars, damped, damped_label, dot, axes, labels]))
+        self.play(*map(FadeOut, [damped, damped_label, dot, axes, labels]))
