@@ -15,7 +15,7 @@
 
 ## About
 
-This repository uses manim and latex libraries to visualize complex harmonic equations and histograms. However, the complexity of the animation, this was all done with simple lines of code that detail the positions and their formulas. Furthermore, this is a rough outline of the project as it may have a few inaccuracies.
+An animated walkthrough of harmonic functions, built with Manim and LaTeX. A single scene draws a sine wave, morphs it into a damped oscillation while its frequency rises, and overlays a cosine for comparison. Each curve is defined by a one-line formula, so the whole animation fits in about 50 lines of Python.
 
 The full-quality render is available as [`assets/GraphDemo.mp4`](assets/GraphDemo.mp4).
 
@@ -28,7 +28,6 @@ The full-quality render is available as [`assets/GraphDemo.mp4`](assets/GraphDem
 - [Installation](#installation)
 - [Usage](#usage)
 - [Customizing the Graphs](#customizing-the-graphs)
-- [Known Limitations](#known-limitations)
 - [License](#license)
 
 ## What the Animation Shows
@@ -117,11 +116,6 @@ Other things to try:
 - Change the `x_range` / `y_range` of the `Axes` to zoom in or out
 - Animate a different parameter with a `ValueTracker` (e.g. the damping factor `0.2`)
 - Adjust `run_time` on any `self.play(...)` call to speed up or slow down a stage
-
-## Known Limitations
-
-- As noted above, this is a rough outline and some details may be inaccurate.
-- The histogram visualization mentioned in the description is not part of the current scene.
 
 ## License
 
